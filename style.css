@@ -7,7 +7,7 @@ body
 }
 .Back
 {
-  background-image: url("/Users/arshdeep/Desktop/HTML/MyWebsite/amir-hanna-P2f--KEz5oM-unsplash.jpg");
+  background-image: url("amir-hanna-P2f--KEz5oM-unsplash.jpg");
     padding: 8%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,17 +34,18 @@ label
 .box
 {
   display: block;
-  width:55%;
+  width:60%;
       box-shadow: 0px 0px 15px grey;
   background-color: rgba(255, 255, 255, 47%);
   padding:2% 0 2% 0;
+
 }
 h1
 {
   color:white;
   object-fit: cover;
   font-size: 300%;
-  font-family: roboto;
+  font-family:"Gill Sans", sans-serif;
 }
 #w
 {font-size: 2vw;
@@ -56,7 +57,7 @@ margin-left: 8px;
 .two
 {
   padding: 10% 10% 15% 10%;
-  background-image: url("/Users/arshdeep/Desktop/HTML/MyWebsite/amir-hanna-e-IoOefL_zM-unsplash.jpg");
+  background-image: url("amir-hanna-e-IoOefL_zM-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -65,26 +66,26 @@ margin-left: 8px;
 {
   color: white;
   object-fit: cover;
-  font-size: 200%;
+  font-size: 400%;
   font-family: "Lucida Console", "Monaco", monospace;
-  font-weight: lighter;
+  font-weight: 500;
 }
 .hello
 { margin-top: 100px;
   font-size: 900%;
-  font-family: "Lucida Console", "Monaco", monospace;
+  font-family: "Snell Roundhand", cursive;
 }
 .back
 { margin-top: 150px;
   display: block;
-  box-shadow: 3px 3px 15px grey;
-  background-color: rgba(255,255,255,37%);
-  padding:2% 0 2% 0;
-  width: 90%;
+  box-shadow: 3px 3px 10px white;
+  background-color: rgba(119,136,153,37%);
+  padding:1% 0 1% 0;
+  width: 70%;
 }
 .backfour
 { padding: 10% 10% 15% 10%;
-  background-image: url("/Users/arshdeep/Desktop/HTML/MyWebsite/tommy-cornilleau-EbkpuTrbAVc-unsplash.jpg");
+  background-image: url("tommy-cornilleau-EbkpuTrbAVc-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -119,7 +120,7 @@ margin-left: 8px;
 }
 .backfive{
   padding: 10% 10% 15% 10%;
-  background-image: url("/Users/arshdeep/Desktop/HTML/MyWebsite/marek-piwnicki-3prwT56SbvI-unsplash.jpg");
+  background-image: url("marek-piwnicki-3prwT56SbvI-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -143,17 +144,39 @@ h2
   font-weight: lighter;
 }
 .base
-{margin-top: 40px;
-  width: 110px;
+{
+  width: 90px;
+}
+.baseone
+{
+  width: 83px;
+  margin-right: 5%;
 }
 .work
 { padding-right: 280px;
   float: right;
   width:260px;
 }
+.basic
+{
+  display: block;
+  background: rgba(255, 255, 255, 37%);
+  width: 23%;
+  padding: 0 0 0 0;
+  box-shadow: 0px 0px 10px white;
+}
 .worktwo
 { float: right;
   width: 180px;
   padding-right: 320px;
   margin-top: 60px;
+}
+.column
+{
+  flex: 50%;
+padding: 1px;
+}
+.row
+{
+  display: flex;
 }
