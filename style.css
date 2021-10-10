@@ -4,6 +4,10 @@ body
   background-color: white;
   background-attachment: fixed;
   background-position: center;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 .Back
 {
@@ -12,7 +16,8 @@ body
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 0;
+    border-radius: 2.5%;
+    margin: 1.5%;
 }
 .second
 {width: 250px;
@@ -35,7 +40,7 @@ label
 {
   display: block;
   width:60%;
-      box-shadow: 0px 0px 15px grey;
+  box-shadow: 0px 0px 15px grey;
   background-color: rgba(255, 255, 255, 47%);
   padding:2% 0 2% 0;
 
@@ -61,6 +66,8 @@ margin-left: 8px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 2.5%;
+  margin: 0 1.5% 1.5% 1.5%;
 }
 .sub
 {
@@ -89,7 +96,8 @@ margin-left: 8px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  bac
+  border-radius: 2.5%;
+    margin: 1.5% 1.5% 1.5% 1.5%;
 }
 .use{
   margin-top: 110px;
@@ -124,6 +132,8 @@ margin-left: 8px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-radius: 2.5%;
+    margin: 0 1.5% 1.5% 1.5%;
 }
 .dev
 {
